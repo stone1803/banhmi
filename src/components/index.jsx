@@ -43,12 +43,12 @@ class Index extends Component {
     return (
       <div className="container">
         <h1 className="text-center display-3">BÁNH MÌ PHÚC MẬP</h1>
-        <div className="row mt-3">
+        <div className="row mt-3 ">
           <div className="col-7">
             <h1>BÁNH MÌ CỦA BẠN </h1>
-            <div className="bg-secondary w-100 p-3 mt-4"></div>
+            <div className="bread-top  mt-4"></div>
             <div className="mt-4">{this.renderBanhMi()}</div>
-            <div className="bg-secondary w-100 p-3 mt-4"></div>
+            <div className="bread-bottom mt-4"></div>
           </div>
           <div className="col-5">
             <h1> THỰC ĐƠN CỦA BẠN </h1>
